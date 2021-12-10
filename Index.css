@@ -1,0 +1,73 @@
+@font-face {
+    font-family: VALORANT; src: url('Content/Fonts/Valorant.ttf');
+}
+
+body {
+    text-align: center;
+    background-color: #101823;
+    font-family: VALORANT;
+}
+
+#valorantSelect {
+    background-image: url(Content/Images/valorant.png);
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 0px;
+    font-size: 160px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: VALORANT;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke: 1px #AAA;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.Top {
+    background-color: #FF4D51;
+}
+
+#agents, #weapons{
+    width: 30%;
+}
+
+.body1 {
+    align-content: center;
+}
+
+.body1 h2, .body2 h2 {
+    margin-top: 150px;
+    font-size: 45px;
+    text-shadow: 2px 2px #FF4D51;
+}
+
+.body2 p2 {
+    font-weight: bold;
+    border-bottom: solid;
+    border-color: white;
+}
+
+button {
+    margin-top: 125px;
+    padding: 15px 15px 15px 15px;
+    font-size: 45px;
+    border: none;
+    background-color: #FF4D51;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: VALORANT;
+}
+
+img {
+    width: 25px;
+}
+
+footer {
+    margin-top: 20px;
+}
