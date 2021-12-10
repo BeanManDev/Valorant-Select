@@ -3,6 +3,7 @@
 }
 
 body {
+    color: white;
     text-align: center;
     background-color: #101823;
     font-family: VALORANT;
@@ -59,7 +60,7 @@ button {
 }
 
 a {
-    color: black;
+    color: white;
     text-decoration: none;
     font-family: VALORANT;
 }
@@ -70,4 +71,5 @@ img {
 
 footer {
     margin-top: 20px;
+    color: white;
 }
