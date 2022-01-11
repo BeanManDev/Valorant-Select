@@ -1,5 +1,6 @@
 @font-face {
-    font-family: VALORANT; src: url('Content/Fonts/Valorant.ttf');
+    font-family: VALORANT;
+    src: url('Content/Fonts/Valorant.ttf');
 }
 
 body {
@@ -7,45 +8,31 @@ body {
     background-color: #101823;
     font-family: VALORANT;
 }
+
 .navbar {
-    text-align: center;
     width: 100%;
     background-color: #555;
     overflow: auto;
     position: sticky;
 }
 
-.navbar a {
-    padding: 12px;
-    color: white;
-    text-decoration: none;
-    font-size: 17px;
-    width: 25%;
-    text-align: center;
-}
+    .navbar a {
+        float: left;
+        padding: 12px;
+        color: white;
+        text-decoration: none;
+        font-size: 17px;
+        width: 33.333333333333%;
+        text-align: center;
+    }
 
-.navbar a:hover {
-      background-color: #000;
-}
+        .navbar a:hover {
+            background-color: #000;
+        }
 
-.navbar a.active {
-    background-color: #04AA6D;
-}
-
-.navbar .home {
-    float: left;
-    width: 32%;
-}
-
-.navbar .downloads {
-    float:left;
-    width: 32%;
-}
-
-.navbar .info {
-    float: right;
-    width: 32%;
-}
+        .navbar a.active {
+            background-color: #04AA6D;
+        }
 
 @media screen and (max-width: 500px) {
     .navbar a {
@@ -54,6 +41,14 @@ body {
         width: 100%;
         text-align: left;
     }
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
 }
 
 .icebox {
