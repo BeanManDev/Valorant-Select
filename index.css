@@ -83,6 +83,21 @@ html {
     padding-bottom: 50px;
 }
 
+.disc {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, 75%);
+    z-index: 2;
+    width: 80%;
+    padding: 70px;
+    text-align: center;
+}
+
 .b1c1 {
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,0.8);
@@ -130,4 +145,17 @@ video {
 
 #agents, #weapons {
     width: 30%;
+}
+
+.top p {
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 320%);
+    z-index: 2;
+    width: 80%;
+    padding: 70px;
+    text-align: center;
 }
