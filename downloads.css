@@ -1,11 +1,12 @@
 @font-face {
-    font-family: VALORANT; src: url('Content/Fonts/Valorant.ttf');
+  font-family: VALORANT;
+  src: url('Content/Fonts/Valorant.ttf');
 }
 
 body {
-    color: white;
-    background-color: #101823;
-    font-family: VALORANT;
+  color: white;
+  background-color: #101823;
+  font-family: VALORANT;
 }
 
 .navbar {
@@ -45,6 +46,23 @@ body {
 
 html {
   box-sizing: border-box;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.body1 {
+  padding-top: 50px;
+}
+
+img {
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 *, *:before, *:after {
@@ -53,7 +71,7 @@ html {
 
 .column {
   float: left;
-  width: 33.3%;
+  width: 33%;
   margin-bottom: 16px;
   padding: 0 8px;
 }
@@ -66,8 +84,9 @@ html {
 }
 
 .card {
-    background: #5D3446;
+  background: #5D3446;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 550px;
 }
 
 .container {
@@ -77,7 +96,7 @@ html {
 .container::after, .row::after {
   content: "";
   clear: both;
-  display: table;
+  display: -moz-grid;
 }
 
 .title {
@@ -94,17 +113,18 @@ html {
   text-align: center;
   cursor: pointer;
   width: 100%;
+  margin-top: 1px;
 }
 
 .button:hover {
   background-color: #555;
 }
 
-.body1 {
-    padding-top: 50px;
+.ghost {
+  opacity: 0%;
 }
 
 .VS {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
